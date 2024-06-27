@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Historical Currency Exchange Rates</h1>
+        <div class="buttons">
+            <button id="usdZarBtn" class="active">USD/ZAR</button>
+            <button id="usdEurBtn">USD/EUR</button>
+        </div>
+        <div class="chart-container">
+            <canvas id="currencyChart"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
