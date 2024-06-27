@@ -25,7 +25,7 @@ async function fetchCurrencyData(pair) {
 }
 function updateChart(data, pair) {
     if (!data) return;
-    const labels = Object.keys(data).map(date => date); // Assuming data is structured with dates
+    const labels = Object.keys(data).map(date => date); 
     const values = Object.values(data).map(rate => rate);
     if (currencyChart) {
         currencyChart.destroy();
